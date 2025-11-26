@@ -1,0 +1,14 @@
+{
+    "name": "zaharovrd/mautic-max-channel-bundle",
+    "description": "Mautic 6 plugin for MAX Bot API integration.",
+    "type": "mautic-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MauticPlugin\\MauticMaxBundle\\": ""
+        }
+    },
+    "extra": {
+        "mautic-plugin-name": "MauticMaxBundle"
+    }
+}
