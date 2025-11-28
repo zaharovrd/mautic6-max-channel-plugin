@@ -38,8 +38,12 @@ class MaxIntegration extends AbstractIntegration implements ConfigFormInterface
 
     /**
      * Определяет поля формы на странице настроек интеграции.
+     * 
+     * @param FormBuilder $builder
+     * @param mixed[]     $data
+     * @param string      $formArea
      */
-    public function appendToForm(FormBuilder &$builder, array $data, string $formArea): void
+    public function appendToForm(&$builder, $data, $formArea): void
     {
         if ('features' === $formArea) {
             // Поле для ввода токена
